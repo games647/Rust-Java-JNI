@@ -4,6 +4,7 @@ version = "0.1.0"
 
 [lib]
 name = "rust_jni_test"
+crate-type = ["dylib"]
 
 [dependencies]
-libc = "0.2.7"
+jni-sys = "0.2.2"
