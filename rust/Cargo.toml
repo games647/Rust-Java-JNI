@@ -1,0 +1,9 @@
+[package]
+name = "rust_jni_test"
+version = "0.1.0"
+
+[lib]
+name = "rust_jni_test"
+
+[dependencies]
+libc = "0.2.7"
